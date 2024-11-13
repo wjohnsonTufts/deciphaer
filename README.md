@@ -92,7 +92,7 @@ The image below shows an example of the fields to filled out for a model inferen
 ![image](./user_guide/model_inference_1.png)
 ![image](./user_guide/model_inference_2.png)
 
-# Project Road Map
+## Project Road Map
 - commented ```deciphaer.py``` functions giving users an idea of what should and shouldn't be casually edited
 - data pre-processing script (rewrite in python? ```preprocess.py```)
 - generic data modalities - each modality is a subclass inheriting the dataclass?
