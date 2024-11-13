@@ -15,7 +15,7 @@ Once these are installed, navigate to your desired local directory in your Termi
 
 ```
 cd your_favorite_directory
-git clone https://git.tufts.edu/aalivi01/deciphaer.git
+git clone https://github.com/wjohnsonTufts/deciphaer.git
 ```
 
 ### Setting up your conda virtual environment
