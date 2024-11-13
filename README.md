@@ -1,8 +1,8 @@
 # DECIPHAER User Guide
-Code Authors: William Johnson and Ares Alivisatos; adapted from pytorch/examples/vae, ethanluoyc/pytorch-vae and uhlerlab/cross-modal-autoencoders
+**Code Authors: William Johnson and Ares Alivisatos; adapted from pytorch/examples/vae, ethanluoyc/pytorch-vae and uhlerlab/cross-modal-autoencoders**
 
 ## About
-DECIPHAER (DEcoding Cross-modal Information of PHarmacologies via AutoEncodeRs) is a ML tool that learns a correlated low-dimensional representation of paired/unpaired multi-omics data. We used DECIPHAER to identify strong morphological and transcriptional features of Mycobacterium tuberculosis response to drug treatments. The following code is an inital posting, without raw data and all scripts, associated with the pre-print: 
+DECIPHAER (DEcoding Cross-modal Information of PHarmacologies via AutoEncodeRs) is a ML tool that learns a correlated low-dimensional representation of paired/unpaired multi-omics data. We used DECIPHAER to identify strong morphological and transcriptional features of Mycobacterium tuberculosis response to drug treatments and learn MOA of TB antibiotics. The following code is an inital posting, without raw data and complete scripts, associated with the pre-print: 
 
 ## Installation 
 
