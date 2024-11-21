@@ -2,7 +2,7 @@
 *Code Authors: William Johnson and Ares Alivisatos; adapted from pytorch/examples/vae, ethanluoyc/pytorch-vae and uhlerlab/cross-modal-autoencoders*
 
 ## About
-DECIPHAER (DEcoding Cross-modal Information of PHarmacologies via AutoEncodeRs) is a ML tool that learns a correlated low-dimensional representation of paired/unpaired multi-omics data. We used DECIPHAER to identify strong morphological and transcriptional features of Mycobacterium tuberculosis response to drug treatments and learn MOA of TB antibiotics. The following code is an inital posting, without raw data and complete scripts, associated with the pre-print: 
+DECIPHAER (DEcoding Cross-modal Information of PHarmacologies via AutoEncodeRs) is an ML tool that learns a correlated low-dimensional representation of paired/unpaired multi-omics data. We used DECIPHAER to identify strong morphological and transcriptional features of Mycobacterium tuberculosis response to drug treatments and learn MOA of TB antibiotics. The following code is an initial posting, without raw data and complete scripts, associated with the pre-print: https://doi.org/10.1101/2024.11.20.623860
 
 ## Installation 
 
@@ -25,8 +25,8 @@ The main folder of the git repository contains the ``pytorch.yml`` file. The req
 # navigate to the code directory
 cd your_favorite_directoy/deciphaer/code
 # create a new conda virtual environment
-conda env create --name pytorch --file=pytorch.yml python=3.8.5 
-# activate the enivronment
+conda env create --name pytorch --file=pytorch_env.yml python=3.8.5 
+# activate the environment
 conda activate pytorch
 ```
 NOTE: this environment will need to be activated each time you want to run DECIPHAER.
@@ -87,7 +87,7 @@ To run model inference, the following command line arguments need to be filled i
 - ```model_morph_drug``` and ```model_rna_drug```: path to the drug models that you want to do model inference on. To find these models, navigate to your Models_Analysis folder after performing model selection.
 - ```model_morph_lcd``` and ```model_rna_lcd```: path to the lcd models that you want to do model inference on. To find these models, navigate to your Models_Analysis folder after performing model selection.
 
-The image below shows an example of the fields to filled out for a model inference run. Note that the empty fields could be filled in with something or left blank, either way the program will ignore them because they are not applicable to the model inference pipeline.
+The image below shows an example of the fields filled out for a model inference run. Note that the empty fields could be filled in with something or left blank, either way the program will ignore them because they are not applicable to the model inference pipeline.
  
 ![image](./user_guide/model_inference_1.png)
 ![image](./user_guide/model_inference_2.png)
